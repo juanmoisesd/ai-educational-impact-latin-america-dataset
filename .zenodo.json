@@ -1,0 +1,34 @@
+{
+  "title": "AI Educational Impact Latin America Dataset",
+  "description": "Open research dataset: AI Educational Impact Latin America Dataset. By Juan Moisés de la Serna Tuya (UNIR).",
+  "creators": [
+    {
+      "name": "de la Serna Tuya, Juan Moisés",
+      "affiliation": "Universidad Internacional de La Rioja (UNIR)",
+      "orcid": "0000-0002-8401-8018"
+    }
+  ],
+  "keywords": [
+    "education",
+    "latin america",
+    "dataset",
+    "open data",
+    "research"
+  ],
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-zero",
+  "upload_type": "dataset",
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isIdenticalTo",
+      "identifier": "https://github.com/juanmoisesd/ai-educational-impact-latin-america-dataset",
+      "scheme": "url"
+    }
+  ]
+}
