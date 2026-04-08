@@ -1,0 +1,5 @@
+pandas==2.2.0
+numpy==1.26.4
+jsonschema==4.21.1
+pytest==8.0.0
+snakemake==8.4.1

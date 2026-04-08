@@ -1,0 +1,8 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ex: <http://example.org/> .
+
+ex:dataset_final a prov:Entity ;
+    prov:wasGeneratedBy ex:anonymization_process .
+
+ex:anonymization_process a prov:Activity ;
+    prov:used ex:dataset_clean .

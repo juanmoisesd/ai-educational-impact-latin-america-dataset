@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/dcat.jsonld",
+    {
+      "dct": "http://purl.org/dc/terms/",
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "vcard": "http://www.w3.org/2006/vcard/ns#",
+      "foaf": "http://xmlns.com/foaf/0.1/"
+    }
+  ],
+  "@type": "dcat:Dataset",
+  "dct:title": "Impacto de la Inteligencia Artificial en Procesos Educativos en Latinoamérica",
+  "dct:description": "Dataset sobre el impacto de la IA en procesos educativos en Latinoamérica.",
+  "dct:publisher": {
+    "@type": "foaf:Organization",
+    "foaf:name": "Mendeley Data"
+  },
+  "dcat:keyword": [
+    "IA",
+    "Educación",
+    "Latinoamérica"
+  ],
+  "dct:issued": "2026-03-03",
+  "dct:license": {
+    "@id": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

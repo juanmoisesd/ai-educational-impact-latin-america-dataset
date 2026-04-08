@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "participant_id": { "type": "string" },
+    "country": { "type": "string" },
+    "academic_performance": { "type": "number", "minimum": 0, "maximum": 100 },
+    "motivation_score": { "type": "number", "minimum": 1, "maximum": 5 },
+    "self_regulation_score": { "type": "number", "minimum": 1, "maximum": 5 }
+  },
+  "required": ["participant_id", "country", "academic_performance"]
+}

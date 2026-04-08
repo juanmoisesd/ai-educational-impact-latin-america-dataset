@@ -1,0 +1,3 @@
+# Business Continuity Plan
+
+In the event of a significant disruption, the following steps will be taken to ensure the continuity of research data access...

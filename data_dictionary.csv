@@ -1,0 +1,6 @@
+variable_name,description,data_type,allowed_values,units
+participant_id,Anonymized ID,string,N/A,N/A
+country,Country of residence,string,"Mexico, Colombia, Argentina, Peru, Chile, Brazil",N/A
+academic_performance,Academic score,float,0-100,Percentage
+motivation_score,Student motivation,float,1-5,Likert
+self_regulation_score,Self-regulation,float,1-5,Likert

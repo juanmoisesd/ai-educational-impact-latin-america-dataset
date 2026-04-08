@@ -1,0 +1,20 @@
+{
+  "name": "ai-educational-impact-latin-america-dataset",
+  "title": "Impacto de la Inteligencia Artificial en Procesos Educativos en Latinoamérica",
+  "resources": [
+    {
+      "name": "raw-data",
+      "path": "data/raw/dataset.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "schema.json"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ]
+}
