@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI in Education LATAM - Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-indigo-600">AI Education LATAM</span>
+                </div>
+                <div class="flex items-center space-x-8">
+                    <button onclick="showSection('variables')" class="text-gray-600 hover:text-indigo-600 font-medium">Variables</button>
+                    <button onclick="showSection('combinations')" class="text-gray-600 hover:text-indigo-600 font-medium">Combinations</button>
+                    <button onclick="showSection('insights')" class="text-gray-600 hover:text-indigo-600 font-medium">Research Insights</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
+        <!-- Dashboard Header -->
+        <header class="mb-12">
+            <h1 class="text-4xl font-extrabold text-gray-900 mb-4">Dataset Visualization Dashboard</h1>
+            <p class="text-lg text-gray-600">Exploring the impact of AI on educational processes across Latin America.</p>
+        </header>
+
+        <!-- Summary Cards -->
+        <div id="summary-cards" class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+            <!-- Dynamically populated -->
+        </div>
+
+        <!-- Sections -->
+        <div id="variables" class="section">
+            <h2 class="text-2xl font-bold mb-6">Variable Analysis</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div id="plot-performance" class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-96"></div>
+                <div id="plot-motivation" class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-96"></div>
+                <div id="plot-regulation" class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-96"></div>
+                <div id="plot-countries" class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-96"></div>
+            </div>
+        </div>
+
+        <div id="combinations" class="section hidden">
+            <h2 class="text-2xl font-bold mb-6">Variable Combinations</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div id="plot-perf-vs-mot" class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-96"></div>
+                <div id="plot-perf-by-country" class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-96"></div>
+            </div>
+        </div>
+
+        <div id="insights" class="section hidden">
+            <h2 class="text-2xl font-bold mb-6">Research Insights</h2>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="text-xl font-semibold mb-4">Key Research Questions</h3>
+                <ul class="space-y-6">
+                    <li class="border-l-4 border-indigo-500 pl-4">
+                        <h4 class="font-bold text-gray-800">What is the correlation between AI usage and academic performance?</h4>
+                        <p class="text-gray-600 mt-2">Preliminary analysis shows a moderate positive correlation (r=0.45) suggesting that students who utilize AI tools effectively tend to have higher standardized scores.</p>
+                    </li>
+                    <li class="border-l-4 border-indigo-500 pl-4">
+                        <h4 class="font-bold text-gray-800">Are there significant differences in student motivation across LATAM countries?</h4>
+                        <p class="text-gray-600 mt-2">Data indicates that students in Brazil and Mexico report slightly higher levels of motivation when using generative AI tools in class compared to the regional average.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 py-8 mt-20">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
+            Part of the Open Research Collection by Juan Moisés de la Serna Tuya.
+        </div>
+    </footer>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

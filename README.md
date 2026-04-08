@@ -13,6 +13,7 @@ Dataset sobre el impacto de la IA en procesos educativos en Latinoamérica: rend
 | **Platform** | Mendeley Data |
 | **License** | CC BY 4.0 |
 | **Published** | 3 March 2026 |
+| **Interactive Dashboard** | [View on GitHub Pages](https://juanmoisesd.github.io/ai-educational-impact-latin-america-dataset/) |
 
 ## Description
 
