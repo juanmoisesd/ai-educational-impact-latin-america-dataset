@@ -1,0 +1,7 @@
+lineage:
+  - source: survey_data_2025
+    process: cleaning
+    output: data/clean/dataset_clean.csv
+  - source: data/clean/dataset_clean.csv
+    process: anonymization
+    output: data/analysis_ready/dataset_final.csv

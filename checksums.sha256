@@ -1,0 +1,6 @@
+# Checksums
+# Generated on 2026-04-06
+
+# Placeholder for actual checksums
+# sha256sum data/analysis_ready/dataset_final.csv > checksums.sha256
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  data/analysis_ready/dataset_final.csv

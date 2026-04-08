@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Impacto de la Inteligencia Artificial en Procesos Educativos en Latinoamérica",
+  "description": "Dataset sobre el impacto de herramientas de inteligencia artificial en procesos educativos en Latinoamérica.",
+  "url": "https://doi.org/10.17632/vtc55dyc4n.1",
+  "identifier": "https://doi.org/10.17632/vtc55dyc4n.1",
+  "creator": {
+    "@type": "Person",
+    "name": "Juan Moisés de la Serna Tuya",
+    "sameAs": "https://orcid.org/0000-0002-8401-8018"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Artificial Intelligence",
+    "Education",
+    "Latin America",
+    "Academic Performance",
+    "Motivation",
+    "Self-regulation"
+  ]
+}

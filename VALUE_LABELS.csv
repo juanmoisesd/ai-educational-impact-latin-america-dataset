@@ -1,0 +1,11 @@
+variable,value,label
+motivation_score,1,Strongly Disagree
+motivation_score,2,Disagree
+motivation_score,3,Neutral
+motivation_score,4,Agree
+motivation_score,5,Strongly Agree
+self_regulation_score,1,Strongly Disagree
+self_regulation_score,2,Disagree
+self_regulation_score,3,Neutral
+self_regulation_score,4,Agree
+self_regulation_score,5,Strongly Agree

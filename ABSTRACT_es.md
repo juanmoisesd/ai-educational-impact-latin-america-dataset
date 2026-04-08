@@ -1,0 +1,3 @@
+# Resumen
+
+Este conjunto de datos explora el impacto de la inteligencia artificial (IA) en los procesos educativos en Latinoamérica. Se centra en tres pilares fundamentales: el rendimiento académico, la motivación estudiantil y la autorregulación del aprendizaje. A través de una metodología rigurosa, se han recopilado datos de diversos países y niveles educativos, permitiendo un análisis multidimensional de cómo las herramientas de IA están transformando la educación en la región. Los hallazgos proporcionan una base sólida para futuras investigaciones y políticas educativas orientadas a la integración efectiva de la tecnología en el aula.

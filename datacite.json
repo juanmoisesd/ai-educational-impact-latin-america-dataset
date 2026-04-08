@@ -1,0 +1,46 @@
+{
+  "data": {
+    "type": "datasets",
+    "attributes": {
+      "doi": "10.17632/vtc55dyc4n.1",
+      "creators": [
+        {
+          "name": "De la Serna Tuya, Juan Moisés",
+          "nameType": "Personal",
+          "givenName": "Juan Moisés",
+          "familyName": "De la Serna Tuya",
+          "affiliation": [
+            {
+              "name": "Universidad Internacional de La Rioja (UNIR)"
+            }
+          ],
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "https://orcid.org/0000-0002-8401-8018",
+              "nameIdentifierScheme": "ORCID",
+              "schemeUri": "https://orcid"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "Impacto de la Inteligencia Artificial en Procesos Educativos en Latinoamérica"
+        }
+      ],
+      "publisher": "Mendeley Data",
+      "publicationYear": 2026,
+      "types": {
+        "resourceType": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "descriptions": [
+        {
+          "description": "Dataset sobre el impacto de herramientas de inteligencia artificial en procesos educativos en Latinoamérica. Incluye variables relacionadas con rendimiento académico, motivación estudiantil y autorregulación del aprendizaje.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "schemaVersion": "http://datacite.org/schema/kernel-4"
+    }
+  }
+}

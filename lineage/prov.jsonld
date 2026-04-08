@@ -1,0 +1,16 @@
+{
+  "@context": "https://raw.githubusercontent.com/reproducibility-guide/prov-jsonld/master/prov.jsonld",
+  "@graph": [
+    {
+      "@id": "activity:data_collection",
+      "@type": "Activity",
+      "startedAtTime": "2025-01-01T00:00:00Z",
+      "endedAtTime": "2025-12-31T23:59:59Z"
+    },
+    {
+      "@id": "entity:raw_data",
+      "@type": "Entity",
+      "wasGeneratedBy": "activity:data_collection"
+    }
+  ]
+}

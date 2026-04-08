@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "schema": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Impacto de la Inteligencia Artificial en Procesos Educativos en Latinoamérica",
+      "description": "Dataset sobre el impacto de la IA en procesos educativos en Latinoamérica.",
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8401-8018"
+      }
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8401-8018",
+      "@type": "Person",
+      "name": "Juan Moisés de la Serna Tuya"
+    }
+  ]
+}
